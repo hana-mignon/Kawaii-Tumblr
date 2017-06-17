@@ -1,4 +1,4 @@
-# &#12363;&#12431;&#12356;&#12356; ~Tumblr Theme~
+# &#12363;&#12431;&#12356;&#12356; -Tumblr Theme-
 
 :camera: Screenshot 
 ![kawaii_themes](https://cloud.githubusercontent.com/assets/8746340/22100870/5d85cdfa-de74-11e6-8424-449c5da2c502.png)

@@ -26,7 +26,7 @@
 
 ## :globe_with_meridians: About the use of "[jQuery Plugin](http://en.wikipedia.org/wiki/CSS_frameworks) (JQuery)"
 
-* This theme uses the [Jquery 3.1.1](http://jquery.com).
+* This theme uses the [Jquery 3.2.1](http://jquery.com).
  - Click here for [license of Jquery](https://github.com/jquery/jquery/blob/master/LICENSE.txt).
 * Scroll up button the [Bootstrap v3.3.5 affix.js](http://getbootstrap.com).
  - Click here for [license of Bootstrap](https://github.com/twbs/bootstrap/blob/master/LICENSE).

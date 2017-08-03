@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="{block:Japanese}ja{/block:Japanese}{block:English}en{/block:English}{block:German}de{/block:German}{block:French}fr{/block:French}{block:Italian}it{/block:Italian}{block:Turkish}tr{/block:Turkish}{block:Spanish}es{/block:Spanish}{block:Russian}ru{/block:Russian}{block:Polish}pl{/block:Polish}{block:Portuguese}pt-br{/block:Portuguese}{block:Portuguese}pt-pt{/block:Portuguese}{block:Dutch}nl{/block:Dutch}{block:Korean}kr{/block:Korean}">
-<!-- "Kawaii" - Version121.6.1 - Tumblr Themes. The MIT License. (c) hana. https://github.com/hana-mignon -->
+<!-- "Kawaii" - Version121.7.1 - Tumblr Themes. The MIT License. (c) hana. https://github.com/hana-mignon -->
     <head>
         <meta charset="utf-8">
         <meta name="author" content="{name}">
@@ -129,7 +129,7 @@
         {/block:None}
                    
         <link rel="stylesheet" href="https://static.tumblr.com/smfekjv/syqojlftr/bootstrap.min.css">
-        <link rel="stylesheet" href="https://static.tumblr.com/smfekjv/qHbolpgsy/kawaii.css"> 
+        <link rel="stylesheet" href="https://static.tumblr.com/smfekjv/kSQou3dzx/kawaii.css"> 
         <link rel="stylesheet" href="https://static.tumblr.com/smfekjv/5APoidjta/fontello-embedded.css">
         {block:IfNotInfiniteScroll}
               {block:IfImageGallery}
@@ -351,7 +351,7 @@
                       margin-top:2rem;}
               }
               
-              {CustomCSS} 
+              {CustomCSS}
         </style>
     </head>
     
@@ -362,44 +362,32 @@
                         <nav class="navbar navbar-light row">
                             <div class="container">
                                 <div class="sticky-menu">
-                                    <button type="button" data-toggle="modal" data-target="#menuModal-menu" class="btn navbar-toggler-box" style="padding-left:0.85rem">
-                                           <span class="{select:Menu Button Gingham Check}">
-                                                <span class="icon-menu"></span>
-                                           </span>     
+                                    <button type="button" data-toggle="modal" data-target="#menuModal-menu" class="btn navbar-toggler-box {select:Menu Button Gingham Check}" style="padding-left:0.85rem">
+                                           <span class="icon-menu"></span> 
                                     </button><!-- btn navbar-toggler-box -end -->
                                     {block:ShowDescription}
-                                          <button type="button" data-toggle="modal" data-target="#menuModal-Description" class="btn navbar-toggler-box" style="padding-left:0.85rem;">
-                                                 <span class="{select:Menu Button Gingham Check}">
-                                                      <span class="icon-user-circle-o"></span>
-                                                 </span>     
+                                          <button type="button" data-toggle="modal" data-target="#menuModal-Description" class="btn navbar-toggler-box {select:Menu Button Gingham Check}" style="padding-left:0.85rem;">
+                                                 <span class="icon-user-circle-o"></span>     
                                           </button><!-- btn navbar-toggler-box -end --> 
                                     {/block:ShowDescription}
                                     {block:IfGroupMembers}
-                                          <button type="button" data-toggle="modal" data-target="#menuModal-GroupMembers" class="btn navbar-toggler-box" style="padding-left:0.85rem">
-                                                 <span class="{select:Menu Button Gingham Check}">
-                                                      <span class="icon-user-plus"></span>
-                                                 </span>     
+                                          <button type="button" data-toggle="modal" data-target="#menuModal-GroupMembers" class="btn navbar-toggler-box {select:Menu Button Gingham Check}" style="padding-left:0.85rem">
+                                                 <span class="icon-user-plus"></span>    
                                           </button><!-- btn navbar-toggler-box -end -->
                                     {/block:IfGroupMembers}
                                     {block:IfFollowing}
-                                          <button type="button" data-toggle="modal" data-target="#menuModal-Following" class="btn navbar-toggler-box" style="padding-left:0.85rem">
-                                                 <span class="{select:Menu Button Gingham Check}">
-                                                      <span class="icon-users"></span>
-                                                 </span>     
+                                          <button type="button" data-toggle="modal" data-target="#menuModal-Following" class="btn navbar-toggler-box {select:Menu Button Gingham Check}" style="padding-left:0.85rem">
+                                                 <span class="icon-users"></span>    
                                           </button><!-- btn navbar-toggler-box -end -->
                                     {/block:IfFollowing}
                                     {block:IfLikes}
-                                          <button type="button" data-toggle="modal" data-target="#menuModal-Likes" class="btn navbar-toggler-box" style="padding-left:0.85rem">
-                                                 <span class="{select:Menu Button Gingham Check}">
-                                                      <span class="icon-heart"></span>
-                                                 </span>     
+                                          <button type="button" data-toggle="modal" data-target="#menuModal-Likes" class="btn navbar-toggler-box {select:Menu Button Gingham Check}" style="padding-left:0.85rem">
+                                                 <span class="icon-heart"></span>   
                                           </button><!-- btn navbar-toggler-box -end -->
                                     {/block:IfLikes}
                                     {block:IfTweets}
-                                          <button type="button" data-toggle="modal" data-target="#menuModal-Tweets" class="btn navbar-toggler-box" style="padding-left:0.85rem">
-                                                 <span class="{select:Menu Button Gingham Check}">
-                                                      <span class="icon-twitter"></span>
-                                                 </span>     
+                                          <button type="button" data-toggle="modal" data-target="#menuModal-Tweets" class="btn navbar-toggler-box {select:Menu Button Gingham Check}" style="padding-left:0.85rem">
+                                                 <span class="icon-twitter"></span>    
                                           </button><!-- btn navbar-toggler-box -end -->
                                     {/block:IfTweets}
                                 </div><!-- sticky-menu -end -->
@@ -1211,7 +1199,7 @@
                              <div class="card-block">
                                  <div class="container">
                                      <div class="row">
-                                         <div class="col-sm-6">
+                                         <div class="col-md-6">
                                              <div class="btn-group ma-1" role="group" aria-label="menu">
                                                  <a href="{RSS}" class="btn list-group-item-success">
                                                    <span class="icon-rss"></span>
@@ -1221,7 +1209,7 @@
                                                  </a><!-- btn list-group-item-success -end -->
                                              </div><!-- btn-group ma-1 -end -->
                                          </div><!-- col-sm-6 -end -->
-                                         <div class="col-sm-6">
+                                         <div class="col-md-6">
                                              <div class="container ml-1">
                                                  <form class="form-inline my-1" action="/search" method="get">
                                                       <input class="form-control" name="q" type="text" placeholder="{SearchQuery}">

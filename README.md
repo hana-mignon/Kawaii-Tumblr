@@ -5,7 +5,7 @@
 
 ## Origin of the name
 
-:baby_symbol: Please refer to [wikipedia](http://ja.wikipedia.org/wiki/可愛い)
+:baby_symbol: Please refer to [wikipedia](https://ja.wikipedia.org/wiki/可愛い)
 
 ## Feature
 
@@ -19,9 +19,9 @@
 * Grid layout.
 * Etc ...
 
-## :globe_with_meridians: About the use of "[CSS framework](http://en.wikipedia.org/wiki/CSS_frameworks)"
+## :globe_with_meridians: About the use of "[CSS framework](https://en.wikipedia.org/wiki/CSS_frameworks)"
 
-* This theme has created by using the "[Bootstrap v4.0.0-alpha.6](http://v4-alpha.getbootstrap.com)".
+* This theme has created by using the "[Bootstrap v4.0.0-alpha.6](https://v4-alpha.getbootstrap.com)".
  - Click here for [license of Bootstrap](https://github.com/twbs/bootstrap/blob/master/LICENSE).
 
 ## :globe_with_meridians: About the use of "[jQuery Plugin](http://en.wikipedia.org/wiki/CSS_frameworks) (JQuery)"
@@ -32,18 +32,18 @@
  - Click here for [license of Bootstrap](https://github.com/twbs/bootstrap/blob/master/LICENSE).
 * Smooth scrolling, uses the [Smooth Scroll](https://github.com/kswedberg/jquery-smooth-scroll).
  - Click here for [license of Smooth Scroll](https://github.com/kswedberg/jquery-smooth-scroll/blob/master/LICENSE-MIT).
-* Infinite scroll and sticky navigation, use the "[Waypoints](http://imakewebthings.com/waypoints/)".
+* Infinite scroll and sticky navigation, use the "[Waypoints](https://imakewebthings.com/waypoints/)".
  - Click here for [license of Waypoints](https://github.com/imakewebthings/waypoints/blob/master/licenses.txt).
 * Image gallery using the "[blueimp Gallery](https://blueimp.github.io/Gallery/)".
  - Click here for [license of blueimp Gallery](https://github.com/blueimp/Gallery#license). 
-* Tool tip using the "[Tether](http://github.hubspot.com/tether/)". 
+* Tool tip using the "[Tether](https://github.hubspot.com/tether/)". 
  - Click here for [license of tether](https://github.com/HubSpot/tether/blob/master/LICENSE).
 
 ## :pencil2:&nbsp;About the use of "Icon Font"
 
-* Some of the design, was created using the "[Font Awesome](http://fontawesome.io)".
- - Click here for [license of Font Awesome](http://fontawesome.io/license/).
-* Icon fonts generator [Fontello](http://fontello.com/)
+* Some of the design, was created using the "[Font Awesome](https://fontawesome.io)".
+ - Click here for [license of Font Awesome](https://fontawesome.io/license/).
+* Icon fonts generator [Fontello](https://fontello.com/)
  - Click here for [license of Fontello](https://github.com/fontello/fontello/blob/master/LICENSE).
 
 ## Important Notice
@@ -59,7 +59,7 @@
 
 * Design of demo blog, update content will be reflected after Tumblr approval.
 
-[&#12363;&#12431;&#12356;&#12356;](http://kawaiitheme.tumblr.com)
+[&#12363;&#12431;&#12356;&#12356;](https://kawaiitheme.tumblr.com)
 
 ## Method of introducing the theme.
 
@@ -70,10 +70,10 @@
 
 [Customize | Tumblr](https://www.tumblr.com/customize/)
 
-###:white_check_mark: Official version of the installation
+###:white_check_mark: Install certified version
 :point_right: You can click the "set" of the link destination, please click on the name of the blog you want to set.
 
-[Official](https://www.tumblr.com/theme/39762)
+[Certified Theme](https://www.tumblr.com/theme/39762)
 
 ## License
 
@@ -82,6 +82,6 @@
 ## Support
 
 * Questions or requests and reports of trouble, etc., please use the following.
- - [Tumblr](http://hana-mignon.tumblr.com) `/ask` , `/message` .
+ - [Tumblr](https://hana-mignon.tumblr.com) `/ask` , `/message` .
 * html tags, etc., can not be supported.
 * I cannot guarantee the reply.

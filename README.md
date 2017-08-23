@@ -1,6 +1,6 @@
 # &#12363;&#12431;&#12356;&#12356; -Tumblr Theme-
 
-:camera: Screenshot 
+:camera: Screenshot (old)
 ![kawaii_themes](https://cloud.githubusercontent.com/assets/8746340/22100870/5d85cdfa-de74-11e6-8424-449c5da2c502.png)
 
 ## Origin of the name
@@ -21,7 +21,7 @@
 
 ## :globe_with_meridians: About the use of "[CSS framework](https://en.wikipedia.org/wiki/CSS_frameworks)"
 
-* This theme has created by using the "[Bootstrap v4.0.0-alpha.6](https://v4-alpha.getbootstrap.com)".
+* This theme has created by using the "[Bootstrap v4.0.0-beta](https://getbootstrap.com)".
  - Click here for [license of Bootstrap](https://github.com/twbs/bootstrap/blob/master/LICENSE).
 
 ## :globe_with_meridians: About the use of "[jQuery Plugin](http://en.wikipedia.org/wiki/CSS_frameworks) (JQuery)"
@@ -36,8 +36,8 @@
  - Click here for [license of Waypoints](https://github.com/imakewebthings/waypoints/blob/master/licenses.txt).
 * Image gallery using the "[blueimp Gallery](https://blueimp.github.io/Gallery/)".
  - Click here for [license of blueimp Gallery](https://github.com/blueimp/Gallery#license). 
-* Tool tip using the "[Tether](https://github.hubspot.com/tether/)". 
- - Click here for [license of tether](https://github.com/HubSpot/tether/blob/master/LICENSE).
+* Tool tip using the "[Popper.js](https://popper.js.org/)". 
+ - Click here for [license of Popper.js](https://github.com/FezVrasta/popper.js/blob/master/LICENSE.md).
 
 ## :pencil2:&nbsp;About the use of "Icon Font"
 

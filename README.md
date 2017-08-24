@@ -1,7 +1,7 @@
 # &#12363;&#12431;&#12356;&#12356; -Tumblr Theme-
 
-:camera: Screenshot (old)
-![kawaii_themes](https://cloud.githubusercontent.com/assets/8746340/22100870/5d85cdfa-de74-11e6-8424-449c5da2c502.png)
+:camera: Screenshot 
+![kawaii_theme](https://user-images.githubusercontent.com/8746340/29648755-cb3713f8-88ca-11e7-9fdc-f0316e15ca39.png)
 
 ## Origin of the name
 

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="{block:Japanese}ja{/block:Japanese}{block:English}en{/block:English}{block:German}de{/block:German}{block:French}fr{/block:French}{block:Italian}it{/block:Italian}{block:Turkish}tr{/block:Turkish}{block:Spanish}es{/block:Spanish}{block:Russian}ru{/block:Russian}{block:Polish}pl{/block:Polish}{block:Portuguese}pt-br{/block:Portuguese}{block:Portuguese}pt-pt{/block:Portuguese}{block:Dutch}nl{/block:Dutch}{block:Korean}kr{/block:Korean}">
-<!-- "Kawaii" - Version121.8.0 - Tumblr Themes. The MIT License. (c) hana. https://github.com/hana-mignon -->
+<!-- "Kawaii" - Version 121.9.0 - Tumblr Themes. The MIT License. (c) hana. https://github.com/hana-mignon -->
     <head>
         <meta charset="utf-8">
         <meta name="author" content="{name}">
@@ -86,6 +86,10 @@
               <meta name="select:Element Background Color" content="background-image:linear-gradient(to right ,rgba(176,224,230,0), rgba(176,224,230,.6)) !important;background-image:-webkit-gradient(linear, left top, right top, from( to(rgba(176,224,230,0),rgba(176,224,230,.6)))) !important;background-color:white !important;" Title="Blue Gradation" />
               <meta name="select:Element Background Color" content="background-image:linear-gradient(to right ,rgba(152,251,152,0), rgba(152,251,152,.6)) !important;background-image:-webkit-gradient(linear, left top, right top, from( to(rgba(152,251,152,0),rgba(152,251,152,.6)))) !important;background-color:white !important;" Title="Green Gradation" />
               <meta name="select:Element Background Color" content="background-image:linear-gradient(to right ,rgba(255,250,205,0), rgba(255,250,205,.6)) !important;background-image:-webkit-gradient(linear, left top, right top, from( to(rgba(255,250,205,0),rgba(255,250,205,.6)))) !important;background-color:white !important;" Title="Yellow Gradation" />
+              <meta name="select:Embed Aspect" content="21by9" Title="21by9" />
+              <meta name="select:Embed Aspect" content="16by9" Title="16by9" />
+              <meta name="select:Embed Aspect" content="4by3" Title="4by3" />
+              <meta name="select:Embed Aspect" content="1by1" Title="1by1" />
               <meta name="select:Image Gallery Thumbnail Sharp" content="rounded" Title="Round" /> 
               <meta name="select:Image Gallery Thumbnail Sharp" content="rounded-circle" Title="Circle" /> 
               <meta name='if:Ogp Image Original' content='0' />
@@ -770,7 +774,7 @@
                                                 {/block:Chat}
                 
                                                 {block:Video}
-                                                      <div class="embed-responsive embed-responsive-16by9 mx-auto d-block"{block:VideoThumbnail} style="background-image:url('{VideoThumbnailURL}');background-size:cover;"{/block:VideoThumbnail}>
+                                                      <div class="embed-responsive embed-responsive-{select:Embed Aspect} mx-auto d-block"{block:VideoThumbnail} style="background-image:url('{VideoThumbnailURL}');background-size:cover;"{/block:VideoThumbnail}>
                                                           {Video-700}
                                                       </div><!-- embed-responsive embed-responsive-16by9 mx-auto d-block -end -->
                                                       {block:PermalinkPage}

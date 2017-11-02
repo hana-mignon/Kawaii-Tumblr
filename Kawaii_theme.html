@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="{block:Japanese}ja{/block:Japanese}{block:English}en{/block:English}{block:German}de{/block:German}{block:French}fr{/block:French}{block:Italian}it{/block:Italian}{block:Turkish}tr{/block:Turkish}{block:Spanish}es{/block:Spanish}{block:Russian}ru{/block:Russian}{block:Polish}pl{/block:Polish}{block:Portuguese}pt-br{/block:Portuguese}{block:Portuguese}pt-pt{/block:Portuguese}{block:Dutch}nl{/block:Dutch}{block:Korean}kr{/block:Korean}">
-<!-- "Kawaii" - Version 121.9.0 - Tumblr Themes. The MIT License. (c) hana. https://github.com/hana-mignon -->
+<!-- "Kawaii" - Version 122.0.0 - Tumblr Themes. The MIT License. (c) hana. https://github.com/hana-mignon -->
     <head>
         <meta charset="utf-8">
         <meta name="author" content="{name}">
@@ -132,12 +132,12 @@
               <meta name="text:Google Analytics ID" content='' />
         {/block:None}
                    
-        <link rel="stylesheet" href="https://static.tumblr.com/smfekjv/2PZov311b/bootstrap.min.css">
+        <link rel="stylesheet" href="https://static.tumblr.com/smfekjv/8LNoyj9pn/bootstrap.min.css">
         <link rel="stylesheet" href="https://static.tumblr.com/smfekjv/8A4ov4els/kawaii.css"> 
         <link rel="stylesheet" href="https://static.tumblr.com/smfekjv/5APoidjta/fontello-embedded.css">
         {block:IfNotInfiniteScroll}
               {block:IfImageGallery}
-                    <link rel="stylesheet" href="https://static.tumblr.com/smfekjv/mhColpfjs/blueimp-gallery.min.css">
+                    <link rel="stylesheet" href="https://static.tumblr.com/smfekjv/uK7oyevg6/blueimp-gallery.min.css">
               {/block:IfImageGallery} 
         {/block:IfNotInfiniteScroll}      
         <style>
@@ -231,15 +231,16 @@
                         .permalink-next{
                             position:absolute;
                             top:0;
-                            left:8rem;}
+                            left:130px;}
                         .permalink-previou{
                             position:absolute;
                             top:0;
-                            right:10rem;} 
+                            right:168px;} 
                         .permalink-next a,.permalink-previou a{
                             position:fixed;
                             padding-top:1rem !important;
-                            padding-bottom:1rem !important;}    
+                            padding-bottom:1rem !important;} 
+                        .hidden-md{display:none;}    
                     }
               {/block:PermalinkPage}
               
@@ -421,10 +422,10 @@
                                              <!-- Controls for the borderless lightbox -->  
                                             <h3 class="title"></h3>
                                             <a class="prev">
-                                              &#8249;
+                                              <span class="text-white">&#8249;</span>
                                             </a><!-- prev -end -->
                                             <a class="next">
-                                              &#8250;
+                                              <span class="text-white"> &#8250;</span>
                                             </a><!-- next -end -->
                                             {block:IfNotImageGalleryCarousel}
                                                   <a class="close">
@@ -1139,18 +1140,18 @@
                                      <li class="page-item mr-2 permalink-next">
                                         <a href="{NextPost}" class="btn btn-light btn-sm">
                                           <span class="icon-angle-double-left"></span>
-                                          <span class="hidden-md-up">
+                                          <span class="hidden-md">
                                                {lang:Previous post}
-                                          </span><!-- hidden-md-up -end -->
+                                          </span><!-- hidden-md -end -->
                                         </a><!--  class="btn btn-light btn-sm -end -->
                                      </li><!-- page-item mr-2 -end -->
                                {/block:NextPost}
                                {block:PreviousPost}
                                      <li class="page-item ml-2 permalink-previou">
                                         <a href="{PreviousPost}" class="btn btn-light btn-sm">
-                                          <span class="hidden-md-up">
+                                          <span class="hidden-md">
                                                {lang:Next post}
-                                          </span><!-- hidden-md-up -end -->
+                                          </span><!-- hidden-md -end -->
                                           <span class="icon-angle-double-right"></span>
                                         </a><!--  class="btn btn-light btn-sm -end -->
                                      </li><!-- page-item ml-2 -end -->
@@ -1539,16 +1540,16 @@
          
          <!-- script -->
          <script src="https://static.tumblr.com/smfekjv/tZQop78qa/jquery-3.2.1.min.js"></script>
-         <script src="https://static.tumblr.com/smfekjv/8W4ov377i/popper.min.js"></script>
+         <script src="https://static.tumblr.com/smfekjv/SWqoyja3j/popper.min.js"></script>
          <script>
                 $(function () {
                     $('[data-toggle="tooltip"]').tooltip()
                 })
          </script>
   
-         <script src="https://static.tumblr.com/smfekjv/ERRov314x/bootstrap.min.js"></script>
+         <script src="https://static.tumblr.com/smfekjv/o48oyj9zr/bootstrap.min.js"></script>
          <script src="https://static.tumblr.com/smfekjv/cIyo2ysco/affix.js"></script>
-         <script src="https://static.tumblr.com/smfekjv/xBAojnoix/jquery.smooth-scroll.min.js"></script>
+         <script src="https://static.tumblr.com/smfekjv/92Xoyj86o/jquery.smooth-scroll.min.js"></script>
          <script>
                 $(document).ready(function() {
                     $('a').smoothScroll({
@@ -1583,7 +1584,7 @@
          {block:IfNotInfiniteScroll}
                {block:HideHeaderImage}
                      {block:IfImageGallery}
-                           <script src="https://static.tumblr.com/smfekjv/2qQolpfn0/blueimp-gallery.min.js"></script>
+                           <script src="https://static.tumblr.com/smfekjv/Lz4oyevd4/blueimp-gallery.min.js"></script>
                            <script>
                                   document.getElementById('links').onclick = function (event) {
                                       event = event || window.event;

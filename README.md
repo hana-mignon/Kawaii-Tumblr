@@ -21,7 +21,7 @@
 
 ## :globe_with_meridians: About the use of "[CSS framework](https://en.wikipedia.org/wiki/CSS_frameworks)"
 
-* This theme has created by using the "[Bootstrap v4.0.0](https://getbootstrap.com)".
+* This theme has created by using the "[Bootstrap v4.1.1](https://getbootstrap.com)".
  - Click here for [license of Bootstrap](https://github.com/twbs/bootstrap/blob/master/LICENSE).
 
 ## :globe_with_meridians: About the use of "[jQuery Plugin](http://en.wikipedia.org/wiki/CSS_frameworks) (JQuery)"
